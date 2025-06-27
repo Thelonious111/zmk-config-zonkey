@@ -8,6 +8,7 @@
 #define DFb 0
 #define JIS 1
 #define BT 4
+#define SCROLL 5
 #define MOUSE 6
 
 #define JP_DQUOTE       AT                // "
