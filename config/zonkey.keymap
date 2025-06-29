@@ -230,10 +230,10 @@
 
         layer_2 {
             bindings = <
-&kp N1  &kp NUMBER_2  &kp N3  &kp N4       &kp N5                              &kp NUMBER_6  &kp N7  &kp N8           &kp N9           &kp N0
-&trans  &trans        &trans  &trans       &trans       &trans         &trans  &trans        &trans  &trans           &kp C_MENU_UP    &trans
-&trans  &trans        &trans  &trans       &trans       &trans         &trans  &trans        &trans  &kp C_MENU_LEFT  &kp C_MENU_DOWN  &kp C_MENU_RIGHT
-&trans  &trans        &trans  &lt 3 K_APP  &lt 2 SPACE  &lt 4 GRAVE            &trans        &trans                                                      &trans
+&kp F1  &kp F2        &kp F3        &kp F4        &kp F5                               &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
+&kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans         &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans  &trans        &trans        &trans        &trans        &trans         &trans  &trans        &trans        &trans        &kp F11       &kp F12
+&trans  &trans        &trans        &lt 3 K_APP   &lt 2 SPACE   &lt 4 GRAVE            &trans        &trans                                                  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -244,7 +244,7 @@
 &kp F1   &kp F2                  &kp F3       &kp F4                   &kp F5                              &kp F6    &kp F7    &kp F8          &kp F9           &kp F10
 &kp F11  &kp F12                 &trans       &trans                   &kp END      &trans         &trans  &kp HOME  &trans    &kp UP_ARROW    &trans           &trans
 &trans   &kp LG(LS(LEFT_ARROW))  &kp LA(TAB)  &kp LG(LS(RIGHT_ARROW))  &trans       &trans         &trans  &trans    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans   &trans                  &trans       &lt 3 K_APP              &lt 0 SPACE  &lt 5 GRAVE            &trans    &trans                                              &trans
+&trans   &trans                  &trans       &lt 3 K_APP              &lt 2 SPACE  &lt 5 GRAVE            &trans    &trans                                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -263,10 +263,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                        &kp MINUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
-&trans  &trans  &trans  &trans  &trans  &trans    &trans                      &kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans  &trans    &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD       &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans                                &trans           &trans                                                           &trans
+&trans  &trans  &trans  &trans  &trans                    &kp MINUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp SLASH        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD       &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans            &trans           &trans                                                           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
