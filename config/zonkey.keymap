@@ -218,10 +218,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R   &kp T                                    &kp Y      &kp U          &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F   &kp G        &kp LS(LG(S))    &kp MINUS  &kp H      &kp J          &kp K      &kp L    &kp SEMI
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C   &kp V        &kp B            &kp APOS   &kp N      &kp M          &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &tog 3  &lt 2 SPACE  &lt 1 GRAVE                 &kp ENTER  &kp BACKSPACE                                 &kp TAB
+&kp Q           &kp W         &kp E         &kp R                      &kp T                                    &kp Y      &kp U          &kp I      &kp O    &kp P
+&kp A           &kp S         &kp D         &kp F                      &kp G        &kp LS(LG(S))    &kp MINUS  &kp H      &kp J          &kp K      &kp L    &kp SEMI
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C                      &kp V        &kp B            &kp APOS   &kp N      &kp M          &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 LANG_ZENKAKUHANKAKU  &lt 2 SPACE  &lt 1 GRAVE                 &kp ENTER  &kp BACKSPACE                                 &kp TAB
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -232,7 +232,7 @@
 &kp EXCL      &kp DOUBLE_QUOTES  &kp HASH  &kp DLLR  &kp PERCENT                         &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
 &kp TAB       &trans             &trans    &trans    &trans       &trans         &trans  &trans         &trans            &trans                &kp AT                 &kp LEFT_BRACKET
 &kp CAPSLOCK  &trans             &trans    &trans    &trans       &trans         &trans  &trans         &trans            &kp LS(COMMA)         &kp LS(DOT)            &kp RIGHT_BRACKET
-&trans        &trans             &trans    &tog 3    &lt 4 SPACE  &lt 1 GRAVE            &trans         &trans                                                                            &kp RSHIFT
+&trans        &trans             &trans    &trans    &lt 4 SPACE  &lt 1 GRAVE            &trans         &trans                                                                            &kp RSHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
